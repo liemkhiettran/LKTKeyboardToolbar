@@ -12,6 +12,7 @@
 		BE201FC41FE90EF30061779A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE201FC21FE90EF30061779A /* Main.storyboard */; };
 		BE201FC61FE90EF30061779A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE201FC51FE90EF30061779A /* Assets.xcassets */; };
 		BE201FC91FE90EF30061779A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE201FC71FE90EF30061779A /* LaunchScreen.storyboard */; };
+		BE201FD21FE9277E0061779A /* LKTKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE201FD11FE9277E0061779A /* LKTKeyboardToolbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BE201FC51FE90EF30061779A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE201FC81FE90EF30061779A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE201FCA1FE90EF30061779A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE201FD11FE9277E0061779A /* LKTKeyboardToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKTKeyboardToolbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,21 @@
 			children = (
 				BE201FBE1FE90EF30061779A /* AppDelegate.swift */,
 				BE201FC01FE90EF30061779A /* ViewController.swift */,
+				BE201FD01FE927690061779A /* LKTKeyboarToolbar */,
 				BE201FC21FE90EF30061779A /* Main.storyboard */,
 				BE201FC51FE90EF30061779A /* Assets.xcassets */,
 				BE201FC71FE90EF30061779A /* LaunchScreen.storyboard */,
 				BE201FCA1FE90EF30061779A /* Info.plist */,
 			);
 			path = LKTKeyboardToolbar;
+			sourceTree = "<group>";
+		};
+		BE201FD01FE927690061779A /* LKTKeyboarToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				BE201FD11FE9277E0061779A /* LKTKeyboardToolbar.swift */,
+			);
+			path = LKTKeyboarToolbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE201FD21FE9277E0061779A /* LKTKeyboardToolbar.swift in Sources */,
 				BE201FC11FE90EF30061779A /* ViewController.swift in Sources */,
 				BE201FBF1FE90EF30061779A /* AppDelegate.swift in Sources */,
 			);
